@@ -1,0 +1,178 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #222831;
+}
+
+header {
+  background-color: #393e46;
+  margin-top: 0%;
+  padding: 1.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.blogdiv {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  letter-spacing: 10px;
+  font-weight: lighter;
+  color: #eeeeee;
+}
+nav {
+  padding: 50px;
+}
+
+ul {
+  margin-top: 6%;
+  padding: 0;
+  list-style: none;
+}
+ul > li {
+  float: left;
+  width: 25%;
+  height: 100px;
+
+  opacity: 0.9;
+  line-height: 40px;
+  text-align: center;
+}
+
+ul > li > a {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  color: #00adb5;
+  display: block;
+}
+
+ul > li > a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #eeeeeece;
+}
+
+img {
+  width: 97.5%;
+  height: 300px;
+  border-style: solid;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-color: #222831;
+  border-bottom: none;
+}
+article > div {
+  display: flex;
+}
+
+.blogdiv,
+.aboutdiv,
+.contactdiv {
+  display: inline-block;
+}
+.about,
+.contact {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  color: #00adb5;
+}
+
+.aboutdiv {
+  margin-left: 5%;
+}
+.blogdiv {
+  margin-left: 28.1%;
+}
+.contactdiv {
+  margin-right: 5%;
+  margin-left: 28.1%;
+}
+.sekcijal {
+  margin: 30px 60px 55px 120px;
+  width: 26.8%;
+  display: inline-block;
+}
+.sekcijam {
+  margin: 30px 60px 55px 0px;
+  width: 26.8%;
+  display: inline-block;
+}
+
+.sekcijar {
+  margin: 30px 120px 55px 0px;
+  width: 26.8%;
+  display: inline-block;
+}
+
+.sekcijal > a,
+.sekcijam > a,
+.sekcijar > a {
+  color: #e7e7e7e7;
+  text-decoration: none;
+}
+
+.sekcijal > a:hover > .naslovi,
+.sekcijam > a:hover > .naslovi,
+.sekcijar > a:hover > .naslovi,
+.sekcijal > a:hover > .tekstovi,
+.sekcijam > a:hover > .tekstovi,
+.sekcijar > a:hover > .tekstovi {
+  opacity: 0.6;
+}
+.sekcijal > a > .naslovi,
+.sekcijam > a > .naslovi,
+.sekcijar > a > .naslovi {
+  padding-bottom: 15px;
+}
+
+.naslovi,
+.tekstovi {
+  margin: -5px 10px 0px 3px;
+  background-color: #393e46;
+}
+
+.naslovi {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+
+  border-style: solid;
+  border-width: 3px;
+  border-color: #393e46;
+  border-bottom: none;
+  border-top: none;
+  padding: 12px;
+}
+.tekstovi {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  position: relative;
+  top: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #393e46;
+  border-top: none;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.aboutdiv > a:hover,
+.contactdiv > a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #7d9d9c;
+}
